@@ -1,10 +1,83 @@
-header {
-    position: fixed;
+body{
+    background-color: rgb(231, 230, 229);
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+}
+#header{
+    /* background-color: rgb(30, 30, 32); */
     width: 100%;
-    top: 0;
-    left: 0;
-    background-color: #cc0000;
-    color: white;
-    font-family: 'Exo 2', sans-serif;
-    padding: 1em;
-  }
+}
+#submit{
+    background-color: rgb(252, 159, 19);
+    line-height: 20px;
+    border: none;
+    padding: 10px 20px;
+
+}
+#header img {
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+}
+#header #nav-bar{
+    float: right;
+    margin-right: 10%;
+}
+#header #nav-bar ul{
+    list-style: none;
+    display: flex;
+    
+}
+#header #nav-bar ul li a{
+    text-decoration: none; 
+    margin-right: 50px;
+    color: black;
+    font-size: 20px;
+    
+}
+.container{
+    
+    /* text-align: center; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* flex: column; */
+    justify-content: center;
+    align-items: center;
+    
+}
+#form #email{
+    margin-bottom: 20px;
+    width: 50%;
+    line-height: 30px;
+    text-align: center;
+}
+#prices {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#prices div {
+    border: 1px solid black;
+    margin: 20px 20px;
+}
+#prices ul{
+    list-style: none;
+
+}
+#prices h2{
+    padding-top: 0px;
+    padding-top: 0px;
+    background-color: rgb(161, 159, 155);
+}
